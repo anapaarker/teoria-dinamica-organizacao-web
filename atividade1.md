@@ -1,8 +1,8 @@
-# Atividade 1 – Descrevendo Efeitos Visuais com JavaScript
+# Atividade 1: Efeitos Visuais com JavaScript
 
 ## Como o JavaScript é utilizado para criar efeitos visuais em páginas web?
 
-O JavaScript é uma linguagem de programação usada para tornar as páginas web interativas. Um dos seus principais usos é criar **efeitos visuais dinâmicos** que melhoram a experiência do usuário. Esses efeitos vão desde **animações simples** (como mover uma imagem ou mudar uma cor) até **transições mais complexas**, como sliders, menus animados, janelas modais, e muito mais.
+O JavaScript é uma linguagem de programação usada para tornar as páginas web interativas. Um dos seus principais usos é criar **efeitos visuais dinâmicos** que melhoram a experiência do usuário. Esses efeitos vão desde **animações simples** (como mover uma imagem ou mudar uma cor) até **transições mais complexas**, como sliders, menus animados, janelas modais, e outros.
 
 ### JavaScript + CSS: como interagem juntos?
 
@@ -13,9 +13,12 @@ Exemplo, o JavaScript pode alterar a cor de fundo de uma caixa quando o usuário
 ```javascript
 document.getElementById("minhaCaixa").style.backgroundColor = "blue";
 
-*Animações simples no navegador*
-Animações simples podem ser feitas com JavaScript puro, controlando o tempo e o estilo dos elementos com funções como setInterval, setTimeout e requestAnimationFrame. Um exemplo seria mover um quadrado para a direita gradualmente:
+```
 
+Animações simples podem ser feitas com JavaScript puro, controlando o tempo e o estilo dos elementos com funções como setInterval, setTimeout e requestAnimationFrame.
+Um exemplo seria mover um quadrado para a direita gradualmente:
+
+```javascript
 let box = document.getElementById("box");
 let pos = 0;
 let id = setInterval(() => {
@@ -26,20 +29,26 @@ let id = setInterval(() => {
     box.style.left = pos + "px";
   }
 }, 10);
+```
 Essa técnica é útil para animações leves e personalizadas.
 
-*Uso de bibliotecas JavaScript para efeitos mais avançados*
+**Uso de bibliotecas JavaScript para efeitos mais avançados:**
 Para efeitos mais complexos e sofisticados, é comum usar bibliotecas JavaScript, como:
 
-jQuery: facilita a criação de animações com comandos simples.
+**jQuery:** facilita a criação de animações com comandos simples.
 Por exemplo:
+```javascript
+
 $("#minhaCaixa").fadeOut();
 
+```
+**GSAP (GreenSock Animation Platform):** permite criar animações profissionais com ótimo desempenho. Exemplo:
 
-GSAP (GreenSock Animation Platform): permite criar animações profissionais com ótimo desempenho. Exemplo:
+```javascript
 gsap.to("#caixa", {x: 100, duration: 2});
+```
 
-Referências
+**Referências:**
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
 https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/DOM_scripting
