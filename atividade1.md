@@ -1,14 +1,14 @@
 # Atividade 1 – Descrevendo Efeitos Visuais com JavaScript
 
-## Como o JavaScript é utilizado para criar efeitos visuais em páginas web
+## Como o JavaScript é utilizado para criar efeitos visuais em páginas web?
 
 O JavaScript é uma linguagem de programação usada para tornar as páginas web interativas. Um dos seus principais usos é criar **efeitos visuais dinâmicos** que melhoram a experiência do usuário. Esses efeitos vão desde **animações simples** (como mover uma imagem ou mudar uma cor) até **transições mais complexas**, como sliders, menus animados, janelas modais, e muito mais.
 
-### JavaScript + CSS: como funcionam juntos
+### JavaScript + CSS: como interagem juntos?
 
 O JavaScript consegue **interagir com o CSS** para modificar o estilo de elementos HTML de forma dinâmica, ou seja, enquanto a página já está carregada no navegador. Isso acontece por meio do acesso ao **DOM (Document Object Model)**, que representa os elementos da página.
 
-Por exemplo, o JavaScript pode alterar a cor de fundo de uma caixa quando o usuário passa o mouse sobre ela:
+Exemplo, o JavaScript pode alterar a cor de fundo de uma caixa quando o usuário passa o mouse sobre ela:
 
 ```javascript
 document.getElementById("minhaCaixa").style.backgroundColor = "blue";
