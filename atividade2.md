@@ -55,7 +55,7 @@ if (!padrao.test(email)) {
 *[^\s@]+$* → Termina com uma parte válida depois do ponto (como ".com", ".br", etc.)
 
 
-**Fontes:**
+## Fontes:
 
 https://developer.mozilla.org/pt-BR/docs/Learn/Forms/Form_validation
 
