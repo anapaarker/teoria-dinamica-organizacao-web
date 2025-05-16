@@ -27,12 +27,11 @@ document.getElementById("formulario").addEventListener("submit", function(event)
   }
 });
 ```
-# Expressões regulares na validação
+# Regex
 As expressões regulares (regex) são padrões usados para verificar se um dado tem a estrutura correta. Um exemplo comum é validar e-mails.
+*Regex para email*: expressão regular que define um padrão para validar ou identificar endereços de email.
 
 **Exemplo de regex para e-mail:**
-
-*Regex para email*: expressão regular que define um padrão para validar ou identificar endereços de email.
 
 ```javascript
 let email = document.getElementById("email").value;
