@@ -63,3 +63,45 @@ A tag <   q   > é usada para citações curtas dentro de um parágrafo.
 ```html
 <p>O ator afirmou que <q>o papel foi desafiador</q> durante a coletiva.</p>
 ```
+**O código da estrutura exemplificada com os elementos semânticos analisados, fica assim:**
+````html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Notícia - Legião dos Heróis</title>
+</head>
+<body>
+  <h1>Quarteto Fantástico: Novo Visual Revelado</h1>
+  <h2>Personagem Surpreende Fãs</h2>
+  <p>O <strong>visual inédito</strong> de um dos personagens foi <em>revelado</em> pela nova linha de brinquedos.</p>
+  <p>Confira abaixo os detalhes:<br>Imagens exclusivas e mais informações.</p>
+  <hr>
+  <h3>Principais Destaques</h3>
+  <ul>
+    <li>Design moderno</li>
+    <li>Referências aos quadrinhos</li>
+    <li>Expectativas para o filme</li>
+  </ul>
+  <h4>Ordem de Eventos</h4>
+  <ol>
+    <li>Vazamento das imagens</li>
+    <li>Reações dos fãs</li>
+    <li>Confirmação oficial</li>
+  </ol>
+  <h5>Glossário</h5>
+  <dl>
+    <dt>Funko</dt>
+    <dd>Empresa de colecionáveis conhecida por seus bonecos estilizados.</dd>
+    <dt>Marvel</dt>
+    <dd>Editora responsável pelo Quarteto Fantástico.</dd>
+  </dl>
+  <h6>Depoimento</h6>
+  <blockquote cite="https://legiaodosherois.com.br">
+    "Este é o melhor visual que já vimos até agora", afirmou o diretor.
+  </blockquote>
+  <p>O ator comentou: <q>Estou animado para que todos vejam o resultado final.</q></p>
+</body>
+</html>
+````
