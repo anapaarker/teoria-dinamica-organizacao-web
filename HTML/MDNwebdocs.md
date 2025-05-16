@@ -13,36 +13,36 @@ Utilizando a ferramenta de ''inspecionar elemento'', temos:
 <h2>Elementos Básicos</h2>
 <h3>Parágrafos</h3>
 ```
-As tags <   h1  > a <   h6    > são usadas para indicar seções importantes do conteúdo, facilitando a compreensão e navegação.
+As tags `<h1>` a `<h6>` são usadas para indicar seções importantes do conteúdo, facilitando a compreensão e navegação.
 
 ```html
 <p>O elemento <code>&lt;p&gt;</code> nota.</p>
 ```
-A tag <   p   >  é usada para explicar os conteúdos detalhadamente.
+A tag `<p>`  é usada para explicar os conteúdos detalhadamente.
 
 ```html
 <strong>Nota:</strong> 
 ```
-A tag <  strong  > é usada para destacar alertas ou informações importantes.
+A tag `<strong>` é usada para destacar alertas ou informações importantes.
 
 ````html
 <p>É <em>nota</em> nota.</p>
 ````
-A tag < em >  adiciona ênfase leve a determinadas palavras ou frases, geralmente exibidas em itálico.
+A tag `<em>`  adiciona ênfase leve a determinadas palavras ou frases, geralmente exibidas em itálico.
 
 ```html
 <p>Exemplo de uso:<br>&lt;p&gt;nota.&lt;/p&gt;</p>
 ```
-A tag <  br  > é usada para separar linhas no texto.
+A tag `<br>` é usada para separar linhas no texto.
 
 ```html
 <hr>
 ```
-A tag <  hr  > é usada para separar visualmente diferentes seções ou tópicos na página.
+A tag `<hr>` é usada para separar visualmente diferentes seções ou tópicos na página.
 
 *2-Explorando a Organização com Listas (Individual)*
 
-As tags <  ul  > e <  li  > são usadas para listar itens sem uma ordem específica, como categorias ou tópicos relacionados.
+As tags `<ul>` e `<li>` são usadas para listar itens sem uma ordem específica, como categorias ou tópicos relacionados.
 
 ```html
 <ul>
@@ -51,7 +51,7 @@ As tags <  ul  > e <  li  > são usadas para listar itens sem uma ordem específ
   <li>Estrutura semântica</li>
 </ul>
 ```
-As tags <  ol  > e <  li  > são usadas para listar vantagens, características ou passo a passo em tutoriais.
+As tags `<ol>` e `<li>` são usadas para listar vantagens, características ou passo a passo em tutoriais.
 
 ```html
 <ol>
@@ -60,7 +60,7 @@ As tags <  ol  > e <  li  > são usadas para listar vantagens, características 
   <li>Salve o arquivo com extensão .html</li>
 </ol>
 ```
-As tags <   dl  >, <  dt  >, <  dd  > definem termos e suas descrições, como em glossários.
+As tags `<dl>`, `<dt>`, `<dd>` definem termos e suas descrições, como em glossários.
 
 ```html
 <dl>
@@ -73,14 +73,14 @@ As tags <   dl  >, <  dt  >, <  dd  > definem termos e suas descrições, como e
 
 *3-A Expressão de Citações (Individual)*
 
-A tag <  blockquote  > é usada para destacar normas ou declarações técnicas.
+A tag `<blockquote>` é usada para destacar normas ou declarações técnicas.
 
 ```html
 <blockquote>
   "O elemento <code>&lt;section&gt;</code> representa uma seção genérica de conteúdo."
 </blockquote>
 ```
-A tag <   q   > é usada para citações curtas dentro de um parágrafo.
+A tag `<q>` é usada para citações curtas dentro de um parágrafo.
 
 ```html
 <p>nota <q>semântico</q> nota. </p>
