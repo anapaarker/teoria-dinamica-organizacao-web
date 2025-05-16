@@ -3,7 +3,7 @@
 ## Atividade 1: 
 *Análise da Estrutura Textual de Páginas Web (Individual)*
 
-*Página 1:* https://www.legiaodosherois.com.br/
+*Página 1:* https://www.legiaodosherois.com.br/ (Site de notícias de entretenimento e cultura geek pop).
 
 Utilizando a ferramenta de ''inspecionar elemento'', temos:
 
@@ -19,7 +19,7 @@ Ela deve ser utilizada somente quando não tiver outro elemento de semântica (t
 <div class="mobile-fixed-banner">:
 ```
 Estrutura da barra de cabeçalho (header) de um site. Ele contém um elemento <  section  > que encapsula o conteúdo da barra de cabeçalho, com a classe CSS site-header. 
-Dentro dessa seção, há um <  div  > com a classe container que define um contêiner para o conteúdo da barra, e um <  div  > com a classe row que utiliza um sistema de grade (  grid  ) para organizar os elementos.
+Dentro dessa seção, há um <  div  > com a classe container que define um contêiner para o conteúdo da barra, e um <  div  > com a classe row que utiliza um sistema de grade (  grid  ) para organizar os elementos. Há também o < a >, que são links que permitem aos utilizadores navegar para outra página da web ou para uma secção diferente da mesma página. 
 
   ````javascript
 <section class="site-header">
