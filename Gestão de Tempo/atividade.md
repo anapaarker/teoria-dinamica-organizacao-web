@@ -1,6 +1,6 @@
 ## Análise de um Histórico de Commits (Individual)
 
-🔗 **Repositório GitHub:** [commenthol/astronomia](https://github.com/commenthol/astronomia)
+**Repositório GitHub:** [commenthol/astronomia](https://github.com/commenthol/astronomia)
 
 ## Análise de um Histórico de Commits
 
