@@ -63,3 +63,45 @@ A tag <   q   > é usada para citações curtas no parágrafo.
 ```html
 <p>O astrônomo comentou que <q>as descobertas são revolucionárias</q> para a ciência.</p>
 ```
+**O código da estrutura exemplificada com os elementos semânticos analisados, fica assim:**
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lançamento SpaceX - Space Today</title>
+</head>
+<body>
+  <h1>Missão Starlink 9-4: Sucesso no Espaço</h1>
+  <h2>Detalhes do Lançamento</h2>
+  <p>A SpaceX realizou com sucesso o lançamento do <strong>Falcon 9</strong>, colocando em órbita <em>23 satélites Starlink</em>.</p>
+  <p>Informações adicionais:<br>Transmissão ao vivo e análises técnicas.</p>
+  <hr>
+  <h3>Fases da Missão</h3>
+  <ul>
+    <li>Preparação da carga</li>
+    <li>Contagem regressiva</li>
+    <li>Lançamento e separação dos estágios</li>
+  </ul>
+  <h4>Sequência de Eventos</h4>
+  <ol>
+    <li>Início da transmissão</li>
+    <li>Decolagem</li>
+    <li>Implantação dos satélites</li>
+  </ol>
+  <h5>Termos Técnicos</h5>
+  <dl>
+    <dt>Falcon 9</dt>
+    <dd>Foguete reutilizável desenvolvido pela SpaceX.</dd>
+    <dt>Starlink</dt>
+    <dd>Constelação de satélites para fornecer internet global.</dd>
+  </dl>
+  <h6>Opinião de Especialista</h6>
+  <blockquote cite="https://spacetoday.com.br">
+    "Este lançamento marca um novo capítulo na exploração espacial", disse o CEO da SpaceX.
+  </blockquote>
+  <p>O astrônomo comentou que <q>as descobertas são revolucionárias</q> para a ciência.</p>
+</body>
+</html>
+````
